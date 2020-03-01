@@ -1,8 +1,16 @@
-<?php
+<!DOCTYPE html>
+<html>
+<body>
 
-echo "Hello world";
+<?php
+$Try = 100;
+
+if ($Try < 100){
+    echo "Try is less than 100";
+} else{
+    echo "try is greater than 100";
+}
 ?>
 
-<?php
-
-echo "nice experience";
+</body>
+</html>
